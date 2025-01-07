@@ -7,4 +7,4 @@ cd /home/ec2-user/car-prediction
 sudo yum install python3 -y
 yum install python3-pip -y
 pip3 install -r requirements.txt
-screen -m -d python3 ./app.py
+python3 ./app.py
